@@ -1,0 +1,20 @@
+.mvn/
+**/.DS_Store
+**/build/
+**/classes/
+
+### IntelliJ IDEA ###
+.idea/
+**/*.iws
+**/*.iml
+**/*.ipr
+**/out/
+
+### Zipped archives ###
+**/*.tar
+**/*.jar
+
+### Don't ignore ###
+!gradle-wrapper.jar
+!sapidoc3.jar
+!sapjco3.jar

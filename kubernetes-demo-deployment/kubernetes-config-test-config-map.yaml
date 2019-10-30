@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kubernetes-demo
+data:
+  account-name: harry
+  application.yaml: |-
+    demo:
+      username: new-username
+      password: new-password
